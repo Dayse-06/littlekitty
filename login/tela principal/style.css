@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Cabeçalho*/
+
+header{
+    background-image: linear-gradient(to right,  #6806c4,  #9324fa,  #a753f5,#9324fa ,#6806c4) ;
+    color: #EAD8E6;
+    padding: 20px;
+    text-align: center;
+    border-bottom: #6611b7 5px solid;
+    min-width: 150px;
+
+
+}
+/* Gatos disponiveis*/
+.container{
+    background-color: #BCAEE3;
+    min-height: 860px;
+    padding: 50px;
+
+}
+.gatos{
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+.sessao{
+    width: 30%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+    
+}
+.img-gato{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 15px ;
+    background-position: center;
+    background-size: cover;
+}
+#img-1{
+    background-image: url(imagens/img-1.jpg);
+    
+}
+#img-2{
+    background-image: url(imagens/img-2.jpg); 
+}
+#img-3{
+    background-image: url(imagens/img-3.jpg);
+}
+#img-4{
+    background-image: url(imagens/img-4.jpg);
+}
+#img-5{
+    background-image: url(imagens/img-5.jpg);
+}
+#img-6{
+    background-image: url(imagens/img-6.jpg);
+}
+#img-7{
+    background-image: url(imagens/img-7.jpg);
+}
+#img-8{
+    background-image: url(imagens/img-8.jpg);
+}
+#img-9{
+    background-image: url(imagens/img-9.jpg);
+}
+
+h3{
+    margin-bottom: 10px;
+    color: #EAD8E6;
+    font-size: 24px;
+    border-left: 5px solid #6806c4 ;
+    padding-left: 7px;
+}
+.img-gato p{
+    margin-bottom: 10px;
+
+}
+.bold{
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #a753f5;
+    color: #EAD8E6;
+    padding: 18px;
+    border-radius: 15px;
+    transition: .7s;
+}
+.btn:hover{
+    background-color: #7b3fb3;
+
+}
+
+/*fotter*/
+
+footer{
+    background-image:linear-gradient(to bottom,  #632a98,  #7a3ab5,  #7b3fb3);
+    color: #BCAEE3;
+    border-top: 5px solid ;
+    text-align: center;
+    padding: 80px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

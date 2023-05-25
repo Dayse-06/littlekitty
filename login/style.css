@@ -1,0 +1,64 @@
+
+body{
+    background-image: linear-gradient(to right, #56307A, #b060fb, #8C16FA);
+    height: 100%;
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+    font-weight: bold;
+    color: #ead8e689;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);   
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    background-color:#6c3fa3;
+    margin-top: 10px ;
+    padding: 10px 50px ;
+    border-radius: 30px;
+    margin-top: 100px;
+    width: 250px;
+    height: 390px ;
+    box-shadow: 3px 3px 5px #00000090;
+}
+input{
+    border: 0px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: #52307b;
+    width: 230px;
+    height: 25px;
+    outline: none;
+}
+.input{  
+    margin-bottom: 40px;  
+}
+h2 {
+    margin-bottom: 50px;
+    color: #EAD8E6;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+}
+
+.input label{
+    font-size: 20px;
+    padding: 2px;
+
+}
+.input1{
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    width: 80px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.621);
+   
+}
+
+input::placeholder{
+    padding-left: 5px;
+    font-size: 13px;
+}
